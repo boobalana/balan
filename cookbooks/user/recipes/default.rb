@@ -3,9 +3,9 @@
 # Recipe:: default
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
-user "sysuser" do
-  comment "System user"
-  home    "/home/sysuser"
+user "sysuser1" do
+  comment "System1 user"
+  home    "/home/sysuser1"
   shell   "/bin/bash"
   supports :manage_home => true
   action [ :create, :manage ]

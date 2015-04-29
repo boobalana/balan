@@ -4,8 +4,8 @@
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
 user "sysuser1" do
-  comment "System1 user"
-  home    "/home/sysuser1"
+  comment "System2 user"
+  home    "/home/sysuser2"
   shell   "/bin/bash"
   supports :manage_home => true
   action [ :create, :manage ]
